@@ -7,7 +7,7 @@ curcontent["rules"] = {
 <p><li>Зайдя на сервер Вы автоматически соглашаетесь со всеми нижеперечисленными пунктами правил.</li></p>\
 <p><li>Вы несете ответственность за все свои аккаунты. Получив бан на одном аккаунте - Вы получите его и на последующих аккаунтах. То же самое будет если на одном из ваших аккаунтах имеется EAC блокировка.</li></p>\
 <p><li>Если Вы уже были замечены с читами / макросами на другом сервере / проекте и на вас есть пруфы - мы имеем право забанить Вас без проверки.</li></p>\
-<p><li>Администрацияяяяяяяяяяяяяяяяяяяя не компенсирует игровые ценности, утраченные по причине вашей ошибки, серверных лагов, багов игры или контактом с нарушителями.</li></p>\
+<p><li>Администрация не компенсирует игровые ценности, утраченные по причине вашей ошибки, серверных лагов, багов игры или контактом с нарушителями.</li></p>\
 <p><li>Запрещена продажа или реклама Читов/Макросов.</li></p>\
 <p><li>Запрещено выдавать себя за Администратора, модератора или проверяющего.</li></p>\
 <p><li>Администрация сама выбирает наказание для игрока в зависимости от степени нарушения и обстоятельств. Нарушитель может получить как предупреждение, так и перманентный бан на всех серверах.</li></p>\
@@ -20,7 +20,7 @@ curcontent["rules"] = {
 <p><li>Нельзя жить больше положенного максимума в одном доме.</li></p>\
 <p><li>Нельзя устраивать альянсы и перемирия с соседями если в сумме вас больше указанного в названии сервера максимума.</li></p>\
 <p><li>Частая смена тиммейта будет считаться за нарушения правила о лимите.</li></p>\
-<p><li>Нельзя рейдить и антирейдить в 1+/2+/3+ (подсад, доп.люди на обороне и вообще любое кооперирование направленное против других игроков).</li></p><br>\
+<p><li>Нельзя рейдить и антирейдить в 3+/5+ (подсад, доп.люди на обороне и вообще любое кооперирование направленное против других игроков).</li></p><br>\
 <p class="MsoNormal"><span>Игровой Чат</span></li></p>\
 <p><li>Запрещены ссылки в чате на сторонние сервисы и сайты.</li></p>\
 <p><li>Запрещен флуд (многократное повторение бессмысленных фраз, символов) или многократное отправление одинаковых фраз за короткий промежуток времени.</li></p>\
@@ -36,7 +36,7 @@ curcontent["rules"] = {
 <p><li>При согласии на проверку вы разрешаете устанавливать сторонние программы нужные администрации для проверки вашего PC.</li></p>\
 <p><li>Выход с сервера во время вызова на проверку увенчается блокировкой.</li></p>\
 <p><li>Запрещено чистить ПК перед проверкой.</li></p>\
-</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через месяц после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/bloodappeal">vk.com/bloodappeal</a></span></div></div></div>'
+</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через 14 дней после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/krsrust">vk.com/krsrust</a></span></div></div></div>'
 };
 
 //<p style="text-align: center;"><u>При заходе на наши сервера вы автоматически соглашаетесь с правилами.</u></p>\
@@ -66,10 +66,10 @@ curcontent["kit-kaban"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary active">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
+	<button class="btn btn-secondary active">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/stones.png">\
@@ -155,10 +155,10 @@ curcontent["kit-joker"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary active">Джокер</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">MVP</button>\
+	<button class="btn btn-secondary active">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/stones.png">\
@@ -260,10 +260,10 @@ curcontent["kit-masnik"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
-	<button class="btn btn-secondary active">Мясник</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">MVO</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">FAST</button>\
+	<button class="btn btn-secondary active">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/stones.png">\
@@ -369,10 +369,10 @@ curcontent["kit-smert"] = {
 	xhead: 'Платные киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary" onclick="Open(\'kit-free\', false);">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
-	<button class="btn btn-secondary active">Смэрть</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">FAST</button>\
+	<button class="btn btn-secondary active">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресы" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/stones.png">\
@@ -480,10 +480,10 @@ curcontent["kit-free"] = {
 	xhead: 'Стартовые киты',
 	xcon: '<div class="store-categories">\
 	<button class="btn btn-secondary active">Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">Кабанчик</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">Джокер</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">Мясник</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">Смэрть</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-kaban\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-joker\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-masnik\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-smert\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Стартовый" - <span>Откат 15м</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -524,7 +524,7 @@ curcontent["kit-free"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/furnace.png">\
 <div class="kit-item__quantity">25%</div></div></div>\
 </div></div>\
-<div class="serverheader">Кит за "#bloodrust" в нике - <span>Откат 48ч</span></div>\
+<div class="serverheader">Кит за "#krsrust" в нике - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/deer.skull.mask.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
