@@ -1415,7 +1415,7 @@ window.onload = function () {
 			curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://moscow-cdn.ru/rust/items/icons256/surveycharge.png">\
 										<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
 			else
-			curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://rustlabs.com/img/items180/'+ BlockListArrays[i][b] +'.png">\
+			curcontent["block"].xcon += '<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/'+ BlockListArrays[i][b] +'.png">\
 										<div class="kit-item__quantity block-lvl-'+ (i + 1) +'"></div></div></div>';
 		}
 		curcontent["block"].xcon += '</div>';
