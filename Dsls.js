@@ -58,6 +58,11 @@ curcontent["skins"] = {
      </div></div><div class="row-skins"><a class="container-user" href="https://vk.com/im?sel=-203320496" target="_blank"><img alt="" src="https://i.imgur.com/Mf5iBn3.jpeg" class="icon-user"><div class="textContainer-user"><span class="name-user">Группа ВК</span><span class="category-user">Для связи</span></div></a><a class="container-user1" href="https://discord.com/invite/MHKxBRbZ8g" target="_blank"><img alt="" src="https://i.imgur.com/GA8l3vU.jpeg" class="icon-user1"><div class="textContainer-user1"><span class="name-user1">Дискорд сервер</span><span class="category-user1">Для связи</span></div></div></a>'
 };
 
+curcontent["skipqueue"] = {
+	xhead: 'Пропуск очереди (Skip the queue)',
+	xcon: '<div class="queue-text"><p><span class="rules_rule">[RU]</span><span> Вход без очереди работает сразу после покупки привилегии (как и написано в её описании), для этого не нужно ничего активировать на сервере, но после входа на сервер - необходимо забрать привилегию из корзины, иначе Вас кикнет. Если привилегия была приобретена пока Вы стояли в очереди - нужно выйти из очереди и подключится к серверу вновь.</p>\
+	<span>Если вас не пропускает вне очереди - проверьте с того ли аккаунта Вы авторизировались и приобрели привилегию, а так-же учтите, привилегия работает только на сервере где была забрана из корзины.<p><br><span class="rules_rule">[EN]</span> Skipping the queue works immediately after purchasing the privilege (as it is written in its description), for this you do not need to activate anything on the server, but after entering the server, you need to take the privilege from the basket (/store), otherwise you will be kicked. If the privilege has been acquired, then you have joined the queue - you must exit the queue and reconnect to the server.</p><span>If you are not allowed out of the queue - check with the help of the account you have authorized and received the privilege, and also note that the privilege works only on the server where it was taken from the basket.</div></div>'
+};
 
 curcontent["kit-kaban"] = {
 	xhead: 'Платные киты',
