@@ -452,7 +452,6 @@ curcontent["kit-boost"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
-
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "BOOST ОРУЖИЕ" - <span>Откат 6ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.ibb.co/56pXn9b/hazmat.png">\
