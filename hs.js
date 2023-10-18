@@ -77,7 +77,6 @@ curcontent["kit-free"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
-
 <div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Еда" - <span>Откат 10М</span></div>\
 <div class="kit_set"><div class="kit-items">\
