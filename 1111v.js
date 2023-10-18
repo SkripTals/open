@@ -72,11 +72,11 @@ curcontent["kit-free"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Еда" - <span>Откат 10М</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -134,11 +134,11 @@ curcontent["kit-mvp"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -254,11 +254,11 @@ curcontent["kit-best"] = {
 	<button class="btn btn-secondary active">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -268,7 +268,7 @@ curcontent["kit-best"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metal.refined.png">\
 <div class="kit-item__quantity">x1300</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metal.fragments.png">\
-<div class="kit-item__quantity">x28000</div></div></div>\
+<div class="kit-item__quantity">x40000</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/gunpowder.png">\
 <div class="kit-item__quantity">x10000</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/charcoal.png">\
@@ -335,7 +335,7 @@ curcontent["kit-best"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/rifle.bolt.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 </div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "Чайная трапиза" - <span>Откат 24ч</span></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/614b43e9f1fe13e81a73002f4ea43b3c.png">\
 <div class="kit-item__quantity">x6</div></div></div>\
@@ -357,58 +357,12 @@ curcontent["kit-fast"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary active">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
-	<div class="xbox_custom_kits" ><div class="serverheader">Кит "FAST ОРУЖИЕ" - <span>Откат 24ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/pants.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/shoes.boots.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/hoodie.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.jacket.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/coffeecan.helmet.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.kilt.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/ammo.rifle.png">\
-<div class="kit-item__quantity">x500</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/rifle.ak.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/largemedkit.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/syringe.medical.png">\
-<div class="kit-item__quantity">x30</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "FAST КОМПОНЕНТЫ" - <span>Откат 72ч</span></div>\
-<div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalspring.png">\
-<div class="kit-item__quantity">x40</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/techparts.png">\
-<div class="kit-item__quantity">x50</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsigns.png">\
-<div class="kit-item__quantity">x55</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/semibody.png">\
-<div class="kit-item__quantity">x50</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/smgbody.png">\
-<div class="kit-item__quantity">x50</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalblade.png">\
-<div class="kit-item__quantity">x50</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalpipe.png">\
-<div class="kit-item__quantity">x55</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/gears.png">\
-<div class="kit-item__quantity">x50</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/sewingkit.png">\
-<div class="kit-item__quantity">x45</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/workbench1.png">\
-<div class="kit-item__quantity">x1</div></div></div>\
-</div></div></div>\
-<div class="xbox_custom_kits" ><div class="serverheader">Кит "FAST РЕСУРСЫ" - <span>Откат 72ч</span></div>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
+    <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
 <div class="kit-item__quantity">x60000</div></div></div>\
@@ -430,6 +384,60 @@ curcontent["kit-fast"] = {
 <div class="kit-item__quantity">x1000</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/sulfur.png">\
 <div class="kit-item__quantity">x10000</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalspring.png">\
+<div class="kit-item__quantity">x40</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/techparts.png">\
+<div class="kit-item__quantity">x50</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsigns.png">\
+<div class="kit-item__quantity">x55</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/semibody.png">\
+<div class="kit-item__quantity">x50</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/smgbody.png">\
+<div class="kit-item__quantity">x50</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalblade.png">\
+<div class="kit-item__quantity">x50</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metalpipe.png">\
+<div class="kit-item__quantity">x55</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/gears.png">\
+<div class="kit-item__quantity">x50</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/sewingkit.png">\
+<div class="kit-item__quantity">x45</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/workbench1.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+</div></div></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 6Ч</span></div>\
+<div class="kit_set"><div class="kit-items">\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/pants.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/shoes.boots.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/hoodie.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.jacket.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/coffeecan.helmet.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.kilt.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/ammo.pistol.png">\
+<div class="kit-item__quantity">x500</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/smg.mp5">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/largemedkit.png">\
+<div class="kit-item__quantity">x15</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/syringe.medical.png">\
+<div class="kit-item__quantity">x30</div></div></div>\
+</div></div></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Прочее" - <span>Откат 3Д</span></div>\
+<div class="kit_set"><div class="kit-items">\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/614b43e9f1fe13e81a73002f4ea43b3c.png">\
+<div class="kit-item__quantity">x4</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://pic.moscow.ovh/images/2023/05/08/e17e11ec3fc7c8b9d79366d10325a36b.png">\
+<div class="kit-item__quantity">x4</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.imgur.com/QZ0noWp.png">\
+<div class="kit-item__quantity">30%</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.imgur.com/jRBvIL7.png">\
+<div class="kit-item__quantity">30%</div></div></div>\
 </div></div></div>'
 };
 
@@ -442,23 +450,36 @@ curcontent["kit-boost"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary active">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
-	<div class="xbox_custom_kits" ><div class="serverheader">Кит "BOOST ОРУЖИЕ" - <span>Откат 6ч</span></div>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
+	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 24Ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.ibb.co/56pXn9b/hazmat.png">\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/hazmatsuit_scientist_arctic.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/smg.thompson.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/ammo.pistol.png">\
-<div class="kit-item__quantity">x250</div></div></div>\
+<div class="kit-item__quantity">x350</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/syringe.medical.png">\
-<div class="kit-item__quantity">x15</div></div></div>\
-<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/blueberries.png">\
 <div class="kit-item__quantity">x10</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/black.raspberries.png">\
+<div class="kit-item__quantity">x10</div></div></div>\
+</div></div></div>\
+<div class="xbox_custom_kits" ><div class="serverheader">Кит "Фарм" - <span>Откат 6ч</span></div>\
+<div class="kit_set"><div class="kit-items">\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.ibb.co/56pXn9b/axe.salvaged.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/icepick.salvaged.png">\
+<div class="kit-item__quantity">x1</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/lowgradefuel.png">\
+<div class="kit-item__quantity">x300</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/jackhammer.png">\
+<div class="kit-item__quantity">50%</div></div></div>\
+<div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/chainsaw.png">\
+<div class="kit-item__quantity">50%</div></div></div>\
 </div></div></div>'
 };
 
@@ -470,11 +491,11 @@ curcontent["kit-free1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary active">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary active">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Стартовый" - <span>Откат 15м</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -538,11 +559,11 @@ curcontent["kit-mvp1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary active">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary active">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">X5|Кит "MVP ОРУЖИЕ" - <span>Откат 2ч</span></div>\
 	<div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/pants.png">\
@@ -637,11 +658,11 @@ curcontent["kit-best1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary active">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary active">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">X5|Кит "BEST ОРУЖИЕ" - <span>Откат 8ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/pants.png">\
@@ -735,11 +756,11 @@ curcontent["kit-fast1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary active">X5•FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary active">(X5) FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">X5|Кит "FAST ОРУЖИЕ" - <span>Откат 24ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/pants.png">\
@@ -819,11 +840,11 @@ curcontent["kit-boost1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best\', false);">(X10) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast\', false);">(X10) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost\', false);">(X10) BOOST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">X5•Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">X5•MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">X5•BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">X5•FAST</button>\
-	<button class="btn btn-secondary active">X5•BOOST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-free1\', false);">(X5) Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp1\', false);">(X5) MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
+	<button class="btn btn-secondary active">(X5) BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">X5|Кит "BOOST ОРУЖИЕ" - <span>Откат 6ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.ibb.co/56pXn9b/hazmat.png">\
