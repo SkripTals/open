@@ -39,23 +39,23 @@ curcontent["rules"] = {
 //<p style="text-align: center;"><u>При заходе на наши сервера вы автоматически соглашаетесь с правилами.</u></p>\
 
 curcontent["skins"] = {
-	xhead: 'Пополнение скинами напрямую',
-	xcon: '<div class="x-spoiler">\
+	xhead: 'Пополнение скинами',
+	xcon: '<div class="skin-content"><div class="warnings_skin">⚠️ Перед отправкой скинов, пожалуйста, ознакомьтесь с требованиями к обмену. Обратите внимание, что средства за скины будут зачислены исключительно на баланс того аккаунта, с которого они были отправлены.</div><div class="spoiler"><div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Что значит пополнение напрямую?</span><br><blockquote class="spoil-Untext">Обычно пополнение скинами происходит через сторонние сервисы (SkinPay или Skins.Cash), но в этом случае игрок который пополняет баланс теряет около ~50% от цены скинов. Мы же хотим предложить вам пополнение баланса скинами практически по ценам с торговой площадки, без каких-либо посредников.</span></blockquote>\
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как определяется стоимость скинов?</span><br><blockquote class="spoil-Untext">После отправки обмена нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 80% от средней стоимости скинов за последний месяц на торговой площадке Steam. Например, если средняя стоимость скинов в обмене составляет 100 рублей, то на баланс пользователя будет зачислено 98 рублей.</span></blockquote>\
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
-         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Ограничения при пополнении напрямую</span><span class="skin-warning"> обязательно прочти</span>\
-         <blockquote class="spoil-Untext">\» У вас <b>не должно</b> быть задержки <b>15 дней</b> на обмены<br>» Принимаются скины только из <b>RUST</b>, <b>DOTA 2</b> и <b>CS:GO</b><br>» Если скинов в обмене много - лучше отправлять частями<br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины<br>» Зачисления <b>происходят</b> в <b>|9:00|12:00|16:00|</b> по МСК</li></ol>\
+         <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену</span>\
+         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://i.imgur.com/a8Q2jE3.jpeg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> , <b>CS2</b><br> и <b>DOTA2</b>» В одном обмене не должно быть более 12-и предметов<br>» В обмене не должно быть скинов из CS дешевле <b>15-и рублей</b><br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
          </blockquote>\
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Хочу пополнить баланс скинами</span><br>\
-	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=337162106&token=OjLIuCLm" target="_blank">Начать обмен</a></blockquote>\
-     </div></div><div class="row-skins"><a class="container-user" href="https://vk.com/im?sel=-203320496" target="_blank"><img alt="" src="https://i.imgur.com/Mf5iBn3.jpeg" class="icon-user"><div class="textContainer-user"><span class="name-user">Группа ВК</span><span class="category-user">Для связи</span></div></a><a class="container-user1" href="https://discord.com/invite/MHKxBRbZ8g" target="_blank"><img alt="" src="https://i.imgur.com/GA8l3vU.jpeg" class="icon-user1"><div class="textContainer-user1"><span class="name-user1">Дискорд сервер</span><span class="category-user1">Для связи</span></div></div></a>'
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Начать пополнение скинами</span><br>\
+	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<br><br>Если обмен соответствует требованиям - наш бот примет его в течение нескольких минут.<div class="btn-skins"><a class="btn-skin" onclick="openNewWindow(\'https://steamcommunity.com/tradeoffer/new/?partner=1876222817&token=1A1PMWAN\');">Начать обмен</a></blockquote>\
+     </div></div></div></div>'
 };
 
 curcontent["skipqueue"] = {
