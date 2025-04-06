@@ -48,7 +48,7 @@ curcontent["skins"] = {
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
          <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену</span>\
-         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://i.imgur.com/a8Q2jE3.jpeg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> , <b>CS2</b><br> и <b>DOTA2</b>» В одном обмене не должно быть более 12-и предметов<br>» В обмене не должно быть скинов дешевле <b>15-и рублей</b><br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
+         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://i.imgur.com/a8Q2jE3.jpeg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> , <b>CS2</b>и <b>DOTA2</b><br>» В одном обмене не должно быть более 12-и предметов<br>» В обмене не должно быть скинов дешевле <b>15-и рублей</b><br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
          </blockquote>\
      </div></div>\
 <div class="x-spoiler">\
