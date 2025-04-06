@@ -42,13 +42,13 @@ curcontent["skins"] = {
 	xhead: 'Пополнение скинами',
 	xcon: '<div class="skin-content"><div class="warnings_skin">⚠️ Перед отправкой скинов, пожалуйста, ознакомьтесь с требованиями к обмену. Обратите внимание, что средства за скины будут зачислены исключительно на баланс того аккаунта, с которого они были отправлены.</div><div class="spoiler"><div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
-     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как определяется стоимость скинов?</span><br><blockquote class="spoil-Untext">После отправки обмена нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 80% от средней стоимости скинов за последний месяц на торговой площадке Steam. Например, если средняя стоимость скинов в обмене составляет 100 рублей, то на баланс пользователя будет зачислено 98 рублей.</span></blockquote>\
+     <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Как определяется стоимость скинов?</span><br><blockquote class="spoil-Untext">После отправки обмена нашему боту, он определит цену каждого скина и зачислит на баланс пользователя сумму, составляющую 98% от средней стоимости скинов за последний месяц на торговой площадке Steam. Например, если средняя стоимость скинов в обмене составляет 100 рублей, то на баланс пользователя будет зачислено 98 рублей.</span></blockquote>\
      </div></div>\
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box">\
          <span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Требования к обмену</span>\
-         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://i.imgur.com/a8Q2jE3.jpeg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> , <b>CS2</b><br> и <b>DOTA2</b>» В одном обмене не должно быть более 12-и предметов<br>» В обмене не должно быть скинов из CS дешевле <b>15-и рублей</b><br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
+         <blockquote class="spoil-Untext">\» У вас не должно быть <a href="https://i.imgur.com/a8Q2jE3.jpeg" target="_blank">удержания</a> обмена<br>» Принимаются скины только из <b>RUST</b> , <b>CS2</b><br> и <b>DOTA2</b>» В одном обмене не должно быть более 12-и предметов<br>» В обмене не должно быть скинов дешевле <b>15-и рублей</b><br>» Баланс будет пополнен только того аккаунта, с которого были отправлены скины</li></ol>\
          </blockquote>\
      </div></div>\
 <div class="x-spoiler">\
