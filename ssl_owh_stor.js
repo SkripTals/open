@@ -54,7 +54,7 @@ curcontent["skins"] = {
 <div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
      <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Начать пополнение скинами</span><br>\
-	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<br><br>Если обмен соответствует требованиям - наш бот примет его в течение нескольких минут.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=1876222817&token=1A1PMWAN" target="_blank">Начать обмен</a></blockquote>>\
+	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<br><br>Если обмен соответствует требованиям - наш бот примет его в течение нескольких минут.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=1876222817&token=1A1PMWAN" target="_blank">Начать обмен</a></blockquote>\
      </div></div></div></div>'
 };
 
