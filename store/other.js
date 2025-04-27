@@ -7,7 +7,7 @@ function paymentFormHandle() {
         const paymentLink = document.getElementById('qiwi-inp-other2');
         if (steamID && paymentLink) {
             const storeID = 15212;
-            const token = '5d368f7279f50abbaee5';
+            const token = '17a7a480497d756f0259';
             paymentLink.href = `https://pay.moscow.ovh/?userID=${steamID}&storeID=${storeID}&token=${token}&language=ru`;
             clearInterval(interval);
         }
