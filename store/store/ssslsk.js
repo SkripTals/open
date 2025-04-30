@@ -272,7 +272,7 @@ curcontent["kit-mvp"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/metal.plate.torso.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.kilt.png">\
-<div class="kit-item__quantity">x95</div></div></div>\
+<div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/roadsign.gloves.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/hoodie.png">\
