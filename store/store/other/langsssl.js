@@ -90,9 +90,6 @@ function addStoreWarnings() {
 }
 
 function addButtonToDropdown() {
-    // Удаляем старые кастомные кнопки
-    document.querySelectorAll('button[data-custom="added"]').forEach(btn => btn.remove());
-
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {
         const link = item.querySelector('.nav-link');
         const dropdown = item.querySelector('.dropdown-menu');
@@ -102,6 +99,8 @@ function addButtonToDropdown() {
 
         if (linkText === getTranslation('info') || linkText === "Информация" || linkText === "Information") {
             link.textContent = getTranslation('info');
+
+            dropdown.querySelectorAll('[data-custom="added"]').forEach(el => el.remove());
 
             dropdown.insertAdjacentHTML('afterbegin', `
                 <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
