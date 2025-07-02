@@ -96,20 +96,13 @@ function addButtonToDropdown() {
         if (linkText === getTranslation('info') || linkText === "Информация" || linkText === "Information") {
             link.textContent = getTranslation('info');
 
-            const ids = ['plugins', 'rules', 'block3'];
+            dropdown.querySelectorAll('[data-custom="added"]').forEach(el => el.remove());
 
-            // Проверим, не добавлены ли уже нужные data-open кнопки
-            const alreadyAdded = ids.every(id =>
-                dropdown.querySelector(`button[data-open="${id}"]`)
-            );
-
-            if (!alreadyAdded) {
-                dropdown.insertAdjacentHTML('afterbegin', `
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
-                `);
-            }
+            dropdown.insertAdjacentHTML('afterbegin', `
+                <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
+            `);
         }
 
         if (linkText === getTranslation('contacts') || linkText === "Контакты" || linkText === "Contacts") {
