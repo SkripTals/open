@@ -1,4 +1,3 @@
-
 let userLanguage;
 
 const translations = {
@@ -15,9 +14,9 @@ const translations = {
     ru: {
         info: "Информация",
         contacts: "Контакты",
-        afterWipe: "Вайпблок",
-        rules: "Правила",
-        plugins: "Плагины",
+        afterWipe: "  Вайпблок",
+        rules: "  Правила",
+        plugins: "  Плагины",
         attention: "⚠️ Обратите внимание! Перед покупкой привилегий необходимо выбрать сервер, на котором вы играете. Помните, что купленная привилегия будет активирована на выбранном сервере сразу после покупки.",
         tos: "Пользовательское соглашение",
         kits: "Киты"
@@ -26,9 +25,7 @@ const translations = {
 
 function getTranslation(key) {
     const translation = translations[userLanguage]?.[key];
-    if (!translation) {
-        console.warn(`Missing translation for key: ${key} in language: ${userLanguage}`);
-    }
+    if (!translation) console.warn(`Missing translation for key: ${key}`);
     return translation || key;
 }
 
@@ -50,10 +47,11 @@ function detectLanguage() {
 
 function updateUI() {
     addStoreWarnings();
-    addButtonToDropdown();
+    updateDropdownMenu();
     replaceTosLink();
     hideProductsOnCondition();
     translateRightButtons();
+    translateWidgetBlocks();
     interceptLinks();
 }
 
@@ -89,28 +87,31 @@ function addStoreWarnings() {
     storeWarnings.style.display = 'block';
 }
 
-function addButtonToDropdown() {
+function updateDropdownMenu() {
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {
         const link = item.querySelector('.nav-link');
         const dropdown = item.querySelector('.dropdown-menu');
         if (!link || !dropdown) return;
 
-        const linkText = link.textContent.trim();
+        const text = link.textContent.trim();
+        const isInfo = ["Information", "Информация", getTranslation("info")].includes(text);
+        const isContacts = ["Contacts", "Контакты", getTranslation("contacts")].includes(text);
 
-        if (linkText === getTranslation('info') || linkText === "Информация" || linkText === "Information") {
-            link.textContent = getTranslation('info');
+        if (isInfo) {
+            link.textContent = getTranslation("info");
 
-            dropdown.querySelectorAll('[data-custom="added"]').forEach(el => el.remove());
+            // Удалить старые кастомные
+            dropdown.querySelectorAll('button[data-custom="added"]').forEach(el => el.remove());
 
-            dropdown.insertAdjacentHTML('afterbegin', `
-                <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
-                <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
-                <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
+            dropdown.insertAdjacentHTML("afterbegin", `
+                <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation("plugins")}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation("rules")}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation("afterWipe")}</button>
             `);
         }
 
-        if (linkText === getTranslation('contacts') || linkText === "Контакты" || linkText === "Contacts") {
-            link.textContent = getTranslation('contacts');
+        if (isContacts) {
+            link.textContent = getTranslation("contacts");
         }
     });
 }
@@ -140,13 +141,21 @@ function hideProductsOnCondition() {
     }
 }
 
-function translateRightButtons() {
-    const items = document.querySelectorAll('.pd-block__item');
-    items.forEach(item => {
-        const text = item.textContent.trim().toUpperCase();
-        if (text === 'ПРАВИЛА' || text === 'RULES') item.textContent = getTranslation('rules');
-        else if (text === 'ВАЙПБЛОК' || text === 'AFTER-WIPE BLOCKS') item.textContent = getTranslation('afterWipe');
-        else if (text === 'КИТЫ' || text === 'KITS') item.textContent = getTranslation('kits');
+function translateWidgetBlocks() {
+    const widgetItems = document.querySelectorAll('.xbox_rules .rules');
+
+    widgetItems.forEach(item => {
+        const a = item.querySelector('a');
+        if (!a) return;
+
+        const content = a.textContent.trim().toUpperCase();
+        if (content === 'ПРАВИЛА' || content === 'RULES') {
+            a.textContent = getTranslation('rules');
+        } else if (content === 'ВАЙПБЛОК' || content === 'AFTER-WIPE BLOCKS') {
+            a.textContent = getTranslation('afterWipe');
+        } else if (content === 'КИТЫ' || content === 'KITS') {
+            a.textContent = getTranslation('kits');
+        }
     });
 }
 
@@ -155,9 +164,7 @@ function interceptLinks() {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const blockId = link.getAttribute('data-open');
-            if (blockId) {
-                Open(blockId);
-            }
+            if (blockId) Open(blockId);
         });
     });
 }
