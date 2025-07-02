@@ -41,7 +41,7 @@ function getCookie(name) {
 
 function detectLanguage() {
     const cookieLang = getCookie('_lang');
-    if (cookieLang?.toUpperCase() === 'RU') {
+    if (cookieLang?.toUpperCase() === 'EN') {
         userLanguage = 'ru';
     } else {
         userLanguage = 'en';
