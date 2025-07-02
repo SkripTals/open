@@ -1,4 +1,5 @@
-let userLanguage = 'ru';
+
+let userLanguage;
 
 const translations = {
     en: {
@@ -9,7 +10,6 @@ const translations = {
         plugins: "Plugins",
         attention: "⚠️ Attention! Before purchasing privileges, you must select the server you are playing on. Please note that the purchased privilege will be activated immediately on the server selected prior to purchase.",
         tos: "User Agreement",
-        selectServer: "Select a server:",
         kits: "Kits"
     },
     ru: {
@@ -20,7 +20,6 @@ const translations = {
         plugins: "Плагины",
         attention: "⚠️ Обратите внимание! Перед покупкой привилегий необходимо выбрать сервер, на котором вы играете. Помните, что купленная привилегия будет активирована на выбранном сервере сразу после покупки.",
         tos: "Пользовательское соглашение",
-        selectServer: "Выберите сервер:",
         kits: "Киты"
     }
 };
@@ -42,16 +41,11 @@ function getCookie(name) {
 
 function detectLanguage() {
     const cookieLang = getCookie('_lang');
-    if (cookieLang) {
-        userLanguage = cookieLang.toUpperCase() === 'RU' ? 'ru' : 'en';
-    } else {
-        userLanguage = 'ru';
-    }
+    userLanguage = cookieLang?.toUpperCase() === 'RU' ? 'ru' : 'en';
 }
 
 function updateUI() {
     addStoreWarnings();
-    replaceChooseServerText();
     addButtonToDropdown();
     replaceTosLink();
     hideProductsOnCondition();
@@ -91,29 +85,26 @@ function addStoreWarnings() {
     storeWarnings.style.display = 'block';
 }
 
-function replaceChooseServerText() {
-    const serverButton = document.querySelector('.store-servers .nav .nav-link');
-    if (serverButton) {
-        serverButton.textContent = getTranslation('selectServer');
-    }
-}
-
 function addButtonToDropdown() {
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {
         const link = item.querySelector('.nav-link');
         if (!link) return;
 
         const text = link.textContent.trim();
+        const dropdown = item.querySelector('.dropdown-menu');
+        if (!dropdown) return;
+
         if (text === "Информация" || text === "Information") {
             link.textContent = getTranslation('info');
-            const dropdown = item.querySelector('.dropdown-menu');
-            if (dropdown && !dropdown.querySelector('button[data-custom="added"]')) {
-                dropdown.insertAdjacentHTML('afterbegin', `
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
-                    <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
-                `);
-            }
+
+            // Удалить старые перед добавлением
+            dropdown.querySelectorAll('button[data-custom="added"]').forEach(el => el.remove());
+
+            dropdown.insertAdjacentHTML('afterbegin', `
+                <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
+                <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
+            `);
         } else if (text === "Контакты" || text === "Contacts") {
             link.textContent = getTranslation('contacts');
         }
