@@ -38,11 +38,7 @@ function getCookie(name) {
 
 function detectLanguage() {
     const cookieLang = getCookie('_lang');
-    if (cookieLang?.toUpperCase() === 'RU') {
-        userLanguage = 'ru';
-    } else {
-        userLanguage = 'en';
-    }
+    userLanguage = (cookieLang?.toUpperCase() === 'RU') ? 'ru' : 'en';
 }
 
 function updateUI() {
@@ -80,6 +76,13 @@ function addStoreWarnings() {
     if (!storeWarnings) {
         storeWarnings = document.createElement('div');
         storeWarnings.className = 'store-warnings';
+        storeWarnings.style.margin = '10px 0';
+        storeWarnings.style.padding = '10px';
+        storeWarnings.style.background = '#fff6e5';
+        storeWarnings.style.border = '1px solid #ffc107';
+        storeWarnings.style.borderRadius = '5px';
+        storeWarnings.style.color = '#000';
+        storeWarnings.style.fontSize = '14px';
         storeServers.insertAdjacentElement('beforebegin', storeWarnings);
     }
 
@@ -93,8 +96,12 @@ function updateDropdownMenu() {
         const dropdown = item.querySelector('.dropdown-menu');
         if (!link || !dropdown) return;
 
-        // Проверка по id или классу — надежнее, чем по тексту
-        if (link.textContent.trim().toLowerCase().includes('info') || link.textContent.trim().toLowerCase().includes('инф')) {
+        // Проверка по содержимому текста
+        const text = link.textContent.trim().toLowerCase();
+        const isInfo = text.includes('info') || text.includes('инф');
+        const isContacts = text.includes('contacts') || text.includes('контакт');
+
+        if (isInfo) {
             link.textContent = getTranslation("info");
 
             // Удалить старые кастомные
@@ -107,12 +114,11 @@ function updateDropdownMenu() {
             `);
         }
 
-        if (link.textContent.trim().toLowerCase().includes('contacts') || link.textContent.trim().toLowerCase().includes('контакт')) {
+        if (isContacts) {
             link.textContent = getTranslation("contacts");
         }
     });
 }
-
 
 function replaceTosLink() {
     const linkElement = document.querySelector('a.footer-link__item[href="/tos"]');
