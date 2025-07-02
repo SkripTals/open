@@ -88,24 +88,31 @@ function addStoreWarnings() {
 function addButtonToDropdown() {
     document.querySelectorAll('.nav-item.dropdown').forEach(item => {
         const link = item.querySelector('.nav-link');
-        if (!link) return;
-
-        const text = link.textContent.trim();
         const dropdown = item.querySelector('.dropdown-menu');
-        if (!dropdown) return;
+        if (!link || !dropdown) return;
 
-        if (text === "Информация" || text === "Information") {
+        const linkText = link.textContent.trim();
+
+        if (linkText === getTranslation('info') || linkText === "Информация" || linkText === "Information") {
             link.textContent = getTranslation('info');
 
-            // Удалить старые перед добавлением
-            dropdown.querySelectorAll('button[data-custom="added"]').forEach(el => el.remove());
+            const ids = ['plugins', 'rules', 'block3'];
 
-            dropdown.insertAdjacentHTML('afterbegin', `
-                <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
-                <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
-                <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
-            `);
-        } else if (text === "Контакты" || text === "Contacts") {
+            // Проверим, не добавлены ли уже нужные data-open кнопки
+            const alreadyAdded = ids.every(id =>
+                dropdown.querySelector(`button[data-open="${id}"]`)
+            );
+
+            if (!alreadyAdded) {
+                dropdown.insertAdjacentHTML('afterbegin', `
+                    <button type="button" class="dropdown-item" data-custom="added" data-open="plugins">${getTranslation('plugins')}</button>
+                    <button type="button" class="dropdown-item" data-custom="added" data-open="rules">${getTranslation('rules')}</button>
+                    <button type="button" class="dropdown-item" data-custom="added" data-open="block3">${getTranslation('afterWipe')}</button>
+                `);
+            }
+        }
+
+        if (linkText === getTranslation('contacts') || linkText === "Контакты" || linkText === "Contacts") {
             link.textContent = getTranslation('contacts');
         }
     });
