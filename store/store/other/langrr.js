@@ -38,7 +38,7 @@ function getCookie(name) {
 
 function detectLanguage() {
     const cookieLang = getCookie('_lang');
-    if (cookieLang?.toUpperCase() === 'EN') {
+    if (cookieLang?.toUpperCase() === 'RU') {
         userLanguage = 'ru';
     } else {
         userLanguage = 'en';
@@ -93,11 +93,8 @@ function updateDropdownMenu() {
         const dropdown = item.querySelector('.dropdown-menu');
         if (!link || !dropdown) return;
 
-        const text = link.textContent.trim();
-        const isInfo = ["Information", "Информация", getTranslation("info")].includes(text);
-        const isContacts = ["Contacts", "Контакты", getTranslation("contacts")].includes(text);
-
-        if (isInfo) {
+        // Проверка по id или классу — надежнее, чем по тексту
+        if (link.textContent.trim().toLowerCase().includes('info') || link.textContent.trim().toLowerCase().includes('инф')) {
             link.textContent = getTranslation("info");
 
             // Удалить старые кастомные
@@ -110,11 +107,12 @@ function updateDropdownMenu() {
             `);
         }
 
-        if (isContacts) {
+        if (link.textContent.trim().toLowerCase().includes('contacts') || link.textContent.trim().toLowerCase().includes('контакт')) {
             link.textContent = getTranslation("contacts");
         }
     });
 }
+
 
 function replaceTosLink() {
     const linkElement = document.querySelector('a.footer-link__item[href="/tos"]');
