@@ -152,11 +152,11 @@ curcontent["kit-free"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Еда" - <span>Откат 10М</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -219,11 +219,11 @@ curcontent["kit-mvp"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -342,11 +342,11 @@ curcontent["kit-best"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -448,11 +448,11 @@ curcontent["kit-fast"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
     <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -544,11 +544,11 @@ curcontent["kit-boost"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 24Ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.imgur.com/1RJYGqV.png">\
@@ -594,11 +594,11 @@ curcontent["kit-free1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
     <button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
     <div class="xbox_custom_kits" >\
     <div class="serverheader">Кит "Еда" - <span>Откат 10М</span></div>\
     <div class="kit_set"><div class="kit-items">\
@@ -661,11 +661,11 @@ curcontent["kit-mvp1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -784,11 +784,11 @@ curcontent["kit-best1"] = {
 	<button class="btn btn-secondary active">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -890,11 +890,11 @@ curcontent["kit-fast1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary active">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
     <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
     <div class="kit_set"><div class="kit-items">\
     <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://raw.githubusercontent.com/rostov114/rust-items/main/wood.png">\
@@ -985,11 +985,11 @@ curcontent["kit-boost1"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary active">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 	<div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 24Ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://i.imgur.com/1RJYGqV.png">\
@@ -1036,11 +1036,11 @@ curcontent["kit-free2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary active"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary active">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="serverheader">Кит "Еда" - <span>Откат 10М</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -1103,11 +1103,11 @@ curcontent["kit-mvp2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary active"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary active">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -1227,11 +1227,11 @@ curcontent["kit-best2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary active"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary active">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -1337,11 +1337,11 @@ curcontent["kit-fast2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary active"> FAST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary active">FAST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-boost2\', false);">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "Ресурсы" - <span>Откат 3Д</span></div>\
 <div class="kit_set"><div class="kit-items">\
@@ -1433,11 +1433,11 @@ curcontent["kit-boost2"] = {
 	<button class="btn btn-secondary" onclick="Open(\'kit-best1\', false);">(X5) BEST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-fast1\', false);">(X5) FAST</button>\
 	<button class="btn btn-secondary" onclick="Open(\'kit-boost1\', false);">(X5) BOOST</button>\
-    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);"> Стартовые</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);"> MVP</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);"> BEST</button>\
-	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);"> FAST</button>\
-	<button class="btn btn-secondary active"> BOOST</button>\
+    <button class="btn btn-secondary" onclick="Open(\'kit-free2\', false);">Стартовые</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-mvp2\', false);">MVP</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-best2\', false);">BEST</button>\
+	<button class="btn btn-secondary" onclick="Open(\'kit-fast2\', false);">FAST</button>\
+	<button class="btn btn-secondary active">BOOST</button>\
 <div class="xbox_custom_kits" >\
 <div class="xbox_custom_kits" ><div class="serverheader">Кит "Снаряжение" - <span>Откат 24Ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
